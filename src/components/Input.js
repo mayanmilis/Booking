@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Input extends Component {
   state = { 
     input: '',
@@ -12,7 +11,6 @@ class Input extends Component {
     let number = event.target.value;
     const reg = /([\d])/g;
     let newNumber = number.match(reg) ? number.match(reg).join('') : number=''
-    let plusOne = number ? '+1' : ''
     let start = newNumber ? newNumber.slice(0,3): ''
     let middle = newNumber ? ' ' + newNumber.slice(3,6) : '';
     let end = newNumber.length>6 ? '-' + newNumber.slice(6) : ''
