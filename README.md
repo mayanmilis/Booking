@@ -1,6 +1,6 @@
-#Exercise 1
-###https://booking-12.herokuapp.com\input
+# Exercise 1
+### https://booking-12.herokuapp.com\input
 
-#Booking
-###https://booking-12.herokuapp.com
+# Booking
+### https://booking-12.herokuapp.com
 
