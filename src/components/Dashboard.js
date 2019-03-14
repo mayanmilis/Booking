@@ -107,7 +107,7 @@ export default class App extends Component {
                             <ul>    
                                 {employees&&employees.map(item =>{  
                                     return( 
-                                        <li>
+                                        <li key={item.id}>
                                             <Employee
                                             name={item.firstName + ' ' + item.lastName[0]+'.'}
                                             image={item.profileImageUrl}
