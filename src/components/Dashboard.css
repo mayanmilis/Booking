@@ -1,0 +1,141 @@
+.Container{ 
+    display: flex;
+    justify-content: center;
+}
+.Booking-Dashboard---simple{
+    width: 1300px;
+    height: 860px;
+    background-color: var(--ffffff);
+  }
+  .NumbersContainer{    
+      /* border: 1px solid red; */
+      width: 100%;
+      margin-top: 100px;
+      display: flex;
+  }
+  .Title{
+    width: 56.6px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .Title[id='Rooms_available']{ 
+      margin-left: 101.3px;
+      margin-right: 324.8px;
+  }
+  .Title[id='Reserved_rooms']{   
+      margin-right: 327.5px;
+  }
+  .RoomsContainer{  
+    display: flex;
+  }
+  .Rooms-available{
+    width: 114.6px;
+    height: 15px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--color-steel-grey);
+ }
+    .Rooms-available[id='Rooms_available']{ 
+    margin-left: 101.3px;
+    margin-right: 266.8px;
+    }
+    .Rooms-available[id='Reserved_rooms']{   
+        width: 114.6px;
+    }
+    .Rooms-available[id='Checked_in']{   
+    width: 79.5px;
+    margin-left: 269.5px;
+    }
+    .Reserved-rooms {
+    width: 114.6px;
+    height: 15px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--color-steel-grey);
+  }
+  .Line{
+    height: 1px;
+    border: solid 1px #374148;
+    margin-top: 31px;
+  }
+  .EmployeeContainer{   
+      margin-top: 62px;
+  }
+  .EmployeeContainer ul{   
+    list-style: none;
+    padding: 0;
+}
+  .EmployeeLineContainer{ 
+    display: flex;   
+    height: 33px;
+    margin-bottom: 17px;
+    margin-left:114.6px;
+  }
+  .Employee-stats{
+    margin-left: 95px;
+    margin-bottom: 28px;
+    width: 456px;
+    height: 21px;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+  .Bitmap {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 33px 33px;
+    margin-right: 34.3px;
+  }
+  .NameAndHours{  
+    width: 154.9px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 9px;
+  }
+  .EmployeeName {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .Hours {
+    height: 18px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: var(--color-steel-grey);
+  }
