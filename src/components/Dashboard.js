@@ -22,12 +22,11 @@ export default class App extends Component {
         try{    
             const list = await axios.get('https://interview-booking-api.herokuapp.com/api/bookings');
             const totalList = await axios.get('https://interview-booking-api.herokuapp.com/api/booking-snapshot');
-            items = list.data;
+            items = list.data.filter(item => item.employee)
             total = totalList.data;
         }catch (err){    
             console.log('something went wrong')
         };
-        items.splice(19,1);
 
         function calculateHours(start, end){   
             let oneDay = 60*60*1000;
@@ -45,9 +44,9 @@ export default class App extends Component {
         };
 
         let employees = [];
-        items.map(item =>{  
-            return employees.push(item.employee);
-        });
+        items.map(item=>{ 
+            return employees.push(item.employee)
+        })
         
         let newEmployees = [];
         let obj=[];
